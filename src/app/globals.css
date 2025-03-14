@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/unicode.futurab.woff') format('woff');
+    font-weight: bold;
+    font-display: swap;
+  }
+
+  body {
+    font-family: var(--font-geist-sans), sans-serif;
+  }
+
+  .futura-title {
+    font-family: 'Futura', sans-serif;
+  }
+
+
+  .nav-btn {
+    @apply inline-block py-2.5 px-10 bg-secondary text-white text-lg font-medium border-none rounded-[2px] transition-all duration-500 ease-in-out hover:bg-secondary/90 whitespace-nowrap;
+  }
+
+  .nav-btn:hover {
+    @apply bg-secondary saturate-150;
+    clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%);
+  }
+
+  .back-btn {
+    @apply inline-block py-2.5 px-10 bg-secondary text-white text-lg font-medium border-none rounded-[2px] transition-all duration-300 ease-in-out mb-4;
+  }
+
+  .back-btn:hover {
+    @apply bg-secondary saturate-150;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+  }  
+ 
+  #navbar {
+    @apply transition-all duration-300 ease-in-out;
+    will-change: transform;
+  }
+
+  @media (max-width: 767px) {
+    #navbar {
+      @apply bg-gray-800/80 backdrop-blur-sm;
+    }
+
+    #navbar.hidden {
+      transform: translateY(100%);
+    }
+  }
+
+  @media (min-width: 768px) {
+    #navbar {
+      @apply w-full;
+    }
+
+    #navbar.sticky {
+      @apply fixed top-0 left-0 right-0;
+    }
+  }
+
+  .section {
+    @apply flex bg-primary/5 w-full h-full px-2 py-4 rounded-md dark:bg-darkBackground max-w-screen-2xl mx-auto;
+  }
+
+  .section-container {
+    @apply flex flex-col lg:flex-row w-full h-full;
+    scroll-margin-top: 80px;
+  }
+
+  .section-title{
+    @apply text-center lg:w-72 flex-shrink-0 mr-8;
+  }
+
+  .head-title {
+    @apply flex justify-center gap-2 font-bold text-3xl text-primary pb-4;
+  }
+
+  .head-subtitle {
+    @apply font-semibold text-2xl text-primary pb-2;
+  }
+
+  .head-description {
+    @apply font-medium text-xl text-subHeadingColor dark:text-darkOnSurface pb-4;
+  }
+
+  .article {
+    @apply flex flex-col m-auto  dark:border-darkPrimary px-2 py-4 mb-2 bg-primary/10 rounded-2xl max-w-screen-lg;
+  }
+
+  .card {
+    @apply m-auto border-2 border-r-4 border-b-4 hover:shadow-md hover:shadow-primary/40 hover:cursor-pointer hover:bg-primary/30 border-primary dark:border-darkPrimary dark:hover:border-darkOnBackground dark:hover:bg-inherit rounded-2xl max-w-96 px-2 py-4 transition min-h-[300px];
+  }
+
+  .card-container {
+    @apply grid gap-2 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .footer {
+    @apply flex flex-col bg-primary/60 w-full h-full px-2 py-4 m-auto mt-4 text-center;
+  }
+
+  .footer-container {
+    @apply flex flex-col lg:flex-row w-full h-full p-4;
+  }
+
+  .footer-card {
+    @apply m-auto px-2 py-4;
+  }
+
+  .podpora {
+   @apply flex justify-between w-full flex-wrap;
+  } 
+
+  .podpora-card {
+    @apply m-auto border-2 border-r-4 border-b-4 hover:shadow-md hover:shadow-primary/40 hover:cursor-pointer hover:bg-primary/30 border-primary dark:border-darkPrimary dark:hover:border-darkOnBackground dark:hover:bg-inherit rounded-2xl px-2 py-4 transition text-center w-80 h-52 mb-4;
+  }
+   
+  .ikone-poti {
+    @apply flex items-center mb-2 mr-2;
+  }
+
+  .custom-gallery {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-gallery-slide img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+}
+
+@layer utilities {
+  /* Adjust scroll margin for desktop sections */
+  @media (min-width: 768px) {
+    section[id] {
+      scroll-margin-top: 80px; /* Should match your navbar height */
+    }
+  }
+
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+}
