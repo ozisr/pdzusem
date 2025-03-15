@@ -22,7 +22,6 @@ async function ensureDirectories() {
 }
 
 const existingImages = [
- 
   {
     original: '/images/galerija/julij4.webp',
     thumbnail: '/images/galerija/julij4.webp',
@@ -60,28 +59,30 @@ async function migrateExistingImages() {
       const data = await fs.readFile(dataFile, 'utf8');
       images = JSON.parse(data);
     } catch (error) {
-      if (error.code === 'ENOENT') {
-        // Če datoteka ne obstaja, ustvarimo prazen seznam
-        console.log('File not found, returning empty gallery.');
-        images = [];
-      } else {
-        console.error('Error reading the file:', error);
-        throw error;
-      }
+      if (error.code !== 'ENOENT') throw error;
     }
+
+    if (images.length === 0) {
+      const migratedImages = existingImages.map((image, index) => ({
+        id: index + 1,
+        ...image
+      }));
+
+      await fs.writeFile(dataFile, JSON.stringify(migratedImages, null, 2));
+      return migratedImages;
+    }
+
     return images;
   } catch (error) {
-    console.error('Error reading images:', error);
+    console.error('Error migrating images:', error);
     throw error;
   }
 }
 
-
-
 export async function GET() {
   try {
     await ensureDirectories();
-    const images = await getImages();
+    const images = await migrateExistingImages();
     return NextResponse.json(images);
   } catch (error) {
     console.error('Error in GET:', error);
@@ -108,11 +109,18 @@ export async function POST(request) {
     await fs.writeFile(path.join(process.cwd(), 'public', filePath), buffer);
 
     // Update JSON
-    let images = await getImages();
+    let images = [];
+    try {
+      const data = await fs.readFile(dataFile, 'utf8');
+      images = JSON.parse(data);
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+
     const newImage = {
       id: Date.now(),
       original: filePath,
-      thumbnail: filePath, // Using the same image for thumbnail
+      thumbnail: filePath, // Using same image for thumbnail
     };
 
     images.unshift(newImage);
@@ -129,7 +137,9 @@ export async function DELETE(request) {
   try {
     const { id } = await request.json();
     
-    let images = await getImages();
+    let images = [];
+    const data = await fs.readFile(dataFile, 'utf8');
+    images = JSON.parse(data);
     
     const imageToDelete = images.find(img => img.id === id);
     if (imageToDelete && imageToDelete.original.startsWith('/uploads/')) {
@@ -148,4 +158,4 @@ export async function DELETE(request) {
     console.error('Error in DELETE:', error);
     return NextResponse.json({ error: 'Error deleting image' }, { status: 500 });
   }
-}
+} 
