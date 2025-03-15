@@ -30,9 +30,10 @@ async function getImages() {
     } catch (error) {
       if (error.code === 'ENOENT') {
         // Če datoteka ne obstaja, ustvarimo prazen seznam
+        console.log('File not found, returning empty gallery.');
         images = [];
       } else {
-        // Če je napaka drugačna, jo obravnavamo
+        console.error('Error reading the file:', error);
         throw error;
       }
     }
@@ -42,6 +43,7 @@ async function getImages() {
     throw error;
   }
 }
+
 
 
 export async function GET() {
