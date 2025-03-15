@@ -28,7 +28,13 @@ async function getImages() {
       const data = await fs.readFile(dataFile, 'utf8');
       images = JSON.parse(data);
     } catch (error) {
-      if (error.code !== 'ENOENT') throw error;
+      if (error.code === 'ENOENT') {
+        // Če datoteka ne obstaja, ustvarimo prazen seznam
+        images = [];
+      } else {
+        // Če je napaka drugačna, jo obravnavamo
+        throw error;
+      }
     }
     return images;
   } catch (error) {
@@ -36,6 +42,7 @@ async function getImages() {
     throw error;
   }
 }
+
 
 export async function GET() {
   try {
