@@ -21,7 +21,39 @@ async function ensureDirectories() {
   }
 }
 
-async function getImages() {
+const existingImages = [
+ 
+  {
+    original: '/images/galerija/julij4.webp',
+    thumbnail: '/images/galerija/julij4.webp',
+  },
+  {
+    original: '/images/galerija/JUNIJ3.jpg',
+    thumbnail: '/images/galerija/JUNIJ3.jpg',
+  },
+  {
+    original: '/images/galerija/junij4.jpg',
+    thumbnail: '/images/galerija/junij4.jpg',
+  },
+  {
+    original: '/images/galerija/marec4.jpg',
+    thumbnail: '/images/galerija/marec4.jpg',
+  },
+  {
+    original: '/images/galerija/zadnja stran4.jpg',
+    thumbnail: '/images/galerija/zadnja stran4.jpg',
+  },
+  {
+    original: '/images/galerija/ZIMA 12 (N.P.).jpg',
+    thumbnail: '/images/galerija/ZIMA 12 (N.P.).jpg',
+  },
+  {
+    original: '/images/galerija/žusem 2022 017.jpeg',
+    thumbnail: '/images/galerija/žusem 2022 017.jpeg',
+  }
+];
+
+async function migrateExistingImages() {
   try {
     let images = [];
     try {

@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": 1,
+    "original": "/images/galerija/julij4.webp",
+    "thumbnail": "/images/galerija/julij4.webp"
+  },
+  {
+    "id": 2,
+    "original": "/images/galerija/JUNIJ3.jpg",
+    "thumbnail": "/images/galerija/JUNIJ3.jpg"
+  },
+  {
+    "id": 3,
+    "original": "/images/galerija/junij4.jpg",
+    "thumbnail": "/images/galerija/junij4.jpg"
+  },
+  {
+    "id": 4,
+    "original": "/images/galerija/marec4.jpg",
+    "thumbnail": "/images/galerija/marec4.jpg"
+  },
+  {
+    "id": 5,
+    "original": "/images/galerija/zadnja stran4.jpg",
+    "thumbnail": "/images/galerija/zadnja stran4.jpg"
+  },
+  {
+    "id": 6,
+    "original": "/images/galerija/ZIMA 12 (N.P.).jpg",
+    "thumbnail": "/images/galerija/ZIMA 12 (N.P.).jpg"
+  },
+  {
+    "id": 7,
+    "original": "/images/galerija/žusem 2022 017.jpeg",
+    "thumbnail": "/images/galerija/žusem 2022 017.jpeg"
+  }
+]
