@@ -89,8 +89,8 @@ const existingPoti = [
     zahtevnostPoti: 'Zahtevna pot', 
     opisPoti: 'Pot je del Kozjanske obhodnice; t. j. poti, ki pelje po obronkih Kozjanskega. Začetek poti je v kraju Žamerk. Pri znameniti pečini z »oknom« se usmerimo proti Žusmu, sledimo markacijam in prečkamo cesto Loka - Dobrina ter nadaljujemo pot po stranski cesti mimo domačij (imena domačij!!) in kapelice z zvonikom. Na prvem odcepu zavijemo levo ter zagrizemo v strm hrib skozi gozdiček do domačije (ime domačije!!). Tu zavijemo levo in po kolovozu nadaljujemo dvesto metrov, nato pa zopet zavijemo desno v gozd. Pot se strmo vzpenja proti vrhu Mali Špiček. Pri padalskem vzletišču zavijemo levo in nadaljujemo po asfaltirani cesti mimo dveh cerkva in planinskega doma. V sledečem križišču zavijemo desno, nato pa levo mimo lovskega doma nadaljujemo pot po makadamu. Čez približno petsto metrov zavijemo levo v gozd, sledimo markacijam. Po desetih minutah dosežemo vrh.',
     imgUrl: '/images/grajska_pot.jpg',
-    imgUrl2: '/images/grajska/grajska2.jpg',
-    imgUrl3: '/images/grajska/grajska3.jpg',
+    imgUrl2: '/images/grajska/grajska1.jpg',
+    imgUrl3: '/images/grajska/grajska2.jpg',
     imgUrl4: '/images/grajska_pot.jpg'
   },
   { 
