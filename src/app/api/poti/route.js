@@ -131,7 +131,7 @@ async function migratePoti() {
       await fs.writeFile(dataFile, JSON.stringify(existingPoti, null, 2));
       return existingPoti;
     }
-
+    console.log('Loaded paths:', poti);
     return poti;
   } catch (error) {
     console.error('Error migrating paths:', error);
@@ -144,6 +144,7 @@ export async function GET() {
   try {
     await ensureDirectories();
     const poti = await migratePoti();
+    onsole.log('Paths returned from /api/poti:', poti);
     return NextResponse.json(poti);
   } catch (error) {
     console.error('Error in GET:', error);

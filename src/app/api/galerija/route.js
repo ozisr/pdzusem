@@ -47,7 +47,7 @@ async function migrateExistingImages() {
       await fs.writeFile(dataFile, JSON.stringify(migratedImages, null, 2));
       return migratedImages;
     }
-
+    console.log('Migrated images:', images);
     return images;
   } catch (error) {
     console.error('Error migrating images:', error);
@@ -59,6 +59,7 @@ export async function GET() {
   try {
     await ensureDirectories();
     const images = await migrateExistingImages();
+    console.log('Images returned from /api/galerija:', images);
     return NextResponse.json(images);
   } catch (error) {
     console.error('Error in GET:', error);
