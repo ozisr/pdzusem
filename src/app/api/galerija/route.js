@@ -22,13 +22,10 @@ async function ensureDirectories() {
 }
 
 const existingImages = [
+ 
   {
-    original: '/images/galerija/JESEN 2 (L.Š.P.).jpeg',
-    thumbnail: '/images/galerija/JESEN 2 (L.Š.P.).jpeg',
-  },
-  {
-    original: '/images/galerija/julij4.jpg',
-    thumbnail: '/images/galerija/julij4.jpg',
+    original: '/images/galerija/julij4.webp',
+    thumbnail: '/images/galerija/julij4.webp',
   },
   {
     original: '/images/galerija/JUNIJ3.jpg',
@@ -39,76 +36,20 @@ const existingImages = [
     thumbnail: '/images/galerija/junij4.jpg',
   },
   {
-    original: '/images/galerija/MAJ.JPG',
-    thumbnail: '/images/galerija/MAJ.JPG',
-  },
-  {
-    original: '/images/galerija/MAJ3.JPG',
-    thumbnail: '/images/galerija/MAJ3.JPG',
-  },
-  {
     original: '/images/galerija/marec4.jpg',
     thumbnail: '/images/galerija/marec4.jpg',
-  },
-  {
-    original: '/images/galerija/NOVEMBER.jpg',
-    thumbnail: '/images/galerija/NOVEMBER.jpg',
-  },
-  {
-    original: '/images/galerija/REZERVA POMLAD (PDŽ).JPG',
-    thumbnail: '/images/galerija/REZERVA POMLAD (PDŽ).JPG',
-  },
-  {
-    original: '/images/galerija/rezerva pomlad.JPG',
-    thumbnail: '/images/galerija/rezerva pomlad.JPG',
-  },
-  {
-    original: '/images/galerija/SEPTEMBER.jpeg',
-    thumbnail: '/images/galerija/SEPTEMBER.jpeg',
   },
   {
     original: '/images/galerija/zadnja stran4.jpg',
     thumbnail: '/images/galerija/zadnja stran4.jpg',
   },
   {
-    original: '/images/galerija/ZIMA 1 (N.P.).jpg',
-    thumbnail: '/images/galerija/ZIMA 1 (N.P.).jpg',
-  },
-  {
     original: '/images/galerija/ZIMA 12 (N.P.).jpg',
     thumbnail: '/images/galerija/ZIMA 12 (N.P.).jpg',
   },
   {
-    original: '/images/galerija/žusem 2022 006.JPG',
-    thumbnail: '/images/galerija/žusem 2022 006.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 007.JPG',
-    thumbnail: '/images/galerija/žusem 2022 007.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 008.JPG',
-    thumbnail: '/images/galerija/žusem 2022 008.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 010.JPG',
-    thumbnail: '/images/galerija/žusem 2022 010.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 017.JPG',
-    thumbnail: '/images/galerija/žusem 2022 017.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 028.JPG',
-    thumbnail: '/images/galerija/žusem 2022 028.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 036.JPG',
-    thumbnail: '/images/galerija/žusem 2022 036.JPG',
-  },
-  {
-    original: '/images/galerija/žusem 2022 058.JPG',
-    thumbnail: '/images/galerija/žusem 2022 058.JPG',
+    original: '/images/galerija/žusem 2022 017.jpeg',
+    thumbnail: '/images/galerija/žusem 2022 017.jpeg',
   }
 ];
 
