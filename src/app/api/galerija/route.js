@@ -22,7 +22,10 @@ async function ensureDirectories() {
 }
 
 const existingImages = [
-
+  {
+    original: '/images/galerija/slika_galerija.jp2',
+    thumbnail: '/images/galerija/slika_galerija.jp2',
+  },
 ];
 
 async function migrateExistingImages() {
