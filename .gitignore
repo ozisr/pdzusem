@@ -1,7 +1,7 @@
 node_modules/
 .next/
 .env
-public/
+
 # macOS sistemske datoteke
 .DS_Store
 

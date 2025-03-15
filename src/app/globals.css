@@ -6,7 +6,7 @@
 
   @font-face {
     font-family: 'Futura';
-    src: url('/fonts/unicode.futurab.woff') format('woff');
+    src: url('/fonts/unicode.futurab.woff2') format('woff2');
     font-weight: bold;
     font-display: swap;
   }
