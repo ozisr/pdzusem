@@ -144,7 +144,7 @@ export async function GET() {
   try {
     await ensureDirectories();
     const poti = await migratePoti();
-    onsole.log('Paths returned from /api/poti:', poti);
+    console.log('Paths returned from /api/poti:', poti);
     return NextResponse.json(poti);
   } catch (error) {
     console.error('Error in GET:', error);
