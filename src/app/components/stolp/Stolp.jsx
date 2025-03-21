@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Ikona from './Ikona';
+import Ikona from '../Ikona';
+import Ostolpu from './Ostolpu';
 
 const stolp = '/images/stolp.jpeg';
 
@@ -35,21 +36,7 @@ const Stolp= () => {
                   A Stolp ljubezni ni zgolj arhitekturna znamenitost – postal je priljubljena točka za zaroke, saj se na njem nahaja tudi zvon želja, ki ga pari pogosto zazvonijo v upanju na srečno skupno prihodnost. Vsako leto v februarju tu poteka Valentinov nočni pohod, ki privabi številne pohodnike in romantike.
                   S svojo zgodbo, edinstveno arhitekturo in dih jemajočimi razgledi Stolp ljubezni ni le simbol kraja, temveč tudi kraj spominov, sreče in nepozabnih trenutkov.
                 </p>
-                <h3 className="head-description mt-4 dark:text-white">Tehnični podatki</h3>
-                <ul className="text-textColor dark:text-darkOnSurface">
-                  <li>Višina stolpa: 21,53 m</li>
-                  <li>Tloris temeljev: 6 x 6 m</li>
-                  <li>Število stopnic: 106</li>
-                  <li>Število podestov: 19</li>
-                  <li>Razgledna ploščad: 1</li>
-                </ul>
-
-                <h3 className="head-description mt-4 dark:text-white">Ocenjene količine potrebnega materiala</h3>
-                <ul className="text-textColor dark:text-darkOnSurface">
-                  <li>30 m³ armiranega betona za temelje</li>
-                  <li>30 m³ obdelanega macesnovega lesa</li>
-                  <li>1500 kg nerjaveče kovine (inox) (sidra, sorniki, vijaki, distančniki, strelovod)</li>
-                </ul>
+              <Ostolpu />
             </div>
           </article>
         </div>
