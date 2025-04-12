@@ -1,5 +1,6 @@
 import React from 'react';
 import { formatDate } from '@/app/utils/dateFormat';
+import Image from 'next/image';
 
 const Novica = ({ novica }) => {
   return (
@@ -14,6 +15,16 @@ const Novica = ({ novica }) => {
       <p className="text-textColor dark:text-darkOnSurface">
         {novica.vsebina}
       </p>
+      {/* Pogojno prikaži sliko, če obstaja */}
+      {novica.slika && (
+        <Image
+          src={novica?.slika}
+          alt={`Slika za ${novica.naslov}`}
+          width={350}
+          height={350}
+          className="my-4 rounded shadow-md max-w-full h-auto m-auto"
+        />
+      )}
     </article>
   );
 };

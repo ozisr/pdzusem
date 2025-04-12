@@ -3,7 +3,7 @@ import React from 'react';
 const Industrija = () => {
   return (
     <p>
-      Zaradi hribovitega terena in omejenih ravninskih površin je gospodarstvo regije večinoma usmerjeno v kmetijstvo in živinorejo. Industrijska dejavnost je zelo redka – edini izjemi sta nekateri industrijski obrati, kot so Planina pri Sevnici (Tajfun) in Kozje. Zaradi bližine večjih urbanih središč pa prebivalci pogosto prihajajo v delo v okolici rečnih in industrijskih centerjev, predvsem ob Savinji, Voglajni, Sotli in predvsem Celju.
+      Zaradi hribovitega terena in omejenih ravninskih površin je gospodarstvo regije večinoma usmerjeno v kmetijstvo, živinorejo in trgovino. Industrijska dejavnost je zelo redka – npr. Koval v Loki pri Žusmu. Se pa zaradi primerne kamnitske zgradbe izbrablja za pridobivanje gramoza in tako sta se na njegovih pobočjih hitro razširila kar dva kamnoloma. Zaradi bližine večjih urbanih središč prebivalci odhajajo na delo v okolico industrijskih centrov ob Savinji, Voglajni, Sotli in predvsem v Celje. V zadnjih letih se postopoma uveljavlja butični turizem, saj so prebivalci prepoznali potenciale, ki jih v tem okolju lahko ponudijo potencialnim gostom. Dober zgled najdejo v sosednji občini Podčetrtek, ki je turistično med najbolj razvitimi občinami v Sloveniji.
     </p>
   )
 };

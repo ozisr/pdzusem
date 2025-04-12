@@ -1,17 +1,48 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Grad = () => {
   return (
-    <p>
-      Grad Žusem: Zgodovinski biser Kozjanskega hribovja
-UvodGrad Žusem je ena izmed pomembnih srednjeveških utrdb na Kozjanskem, katere zgodovina sega v 12. stoletje. Nahaja se na nadmorski višini približno 509 metrov, kar mu je v preteklosti omogočalo odličen nadzor nad okoliško pokrajino in strateško pomembne poti. Danes so ohranjene predvsem ruševine, a že te ostanke je mogoče zlahka prepoznati kot sledi nekdaj mogočne utrdbe, ki je igrala ključno vlogo v obrambi in lokalni oblasti.
-Zgodovinski razvoj gradu.Grad Žusem je bil zgrajen v času, ko so se plemiči trudili zagotoviti svoje ozemlje in si zgraditi obrambne prednosti pred morebitnimi napadi. V 12. stoletju, ko so se širile srednjeveške obrambne strategije, je grad služil kot vojaška utrdba, ki je nadzorovala pomembne prometne poti in lokalne krajevne centre. Zaradi svoje lege je imel grad strateški pomen, saj je s tem varoval celotno regijo in omogočal nadzor nad okoliškimi deželnimi območji. Kasneje so se okoli gradu oblikovali naselja, ki so prispevala k njegovemu nadaljnjemu pomenu kot središča lokalnega gospodarstva in oblasti.
-Arhitekturne značilnosti in ruševine.Danes je Grad Žusem prepoznaven predvsem po svojih ruševinah, ki pričajo o značilnostih srednjeveške gradnje. Ostanki obzidij, stolpov in drugih gradbenih elementov nudijo vpogled v obrambno arhitekturo tistega časa. Grad je bil sprva zgrajen z namenom zaščite, kar se kaže v močnih zidovih in strateško postavljenih stolpih, ki so omogočali dober pregled nad okoliščinami. Kljub temu, da je čas in narava požrla večino prvotne zgradbe, so ostanki še danes pomemben del lokalne kulturne dediščine in nam služijo kot opomnik na bogato preteklost.
-Vloga gradu v obdobju srednjega vekaV času svojega razcveta je grad opravljal več funkcij. Poleg svoje obrambne vloge je služil tudi kot sedež lokalne plemiške družine, ki je vplivala na politično in gospodarsko dogajanje v regiji. Obdobju srednjega veka je grad predstavljal simbol moči in varnosti, s čimer je krepil svojo vlogo med sosednjimi utrdbami. V tem obdobju so bili gradovi kot Žusem ključni gradniki fevdalnega sistema, saj so zagotavljali varnost in stabilnost v času pogostih vojaških spopadov.
-Kulturni in družbeni pomen.Grad Žusem ni bil le obrambna utrdba, temveč je imel tudi pomembno kulturno in družbeno vlogo. V njegovi bližini so se skozi stoletja razvijale številne tradicije in običaji, ki so se prenašali iz generacije v generacijo. Ruševine gradu danes pritegnejo tako ljubitelje zgodovine kot tudi turiste, ki si želijo bolje spoznati preteklost te regije. Obisk gradu ponuja vpogled v življenje v srednjem veku, kjer so bili gradovi hkrati utrdbe in središča lokalne skupnosti.
-Sodobni pomen in turizem.Danes je grad Žusem priljubljena destinacija za obiskovalce, ki jih zanima zgodovina in arhitektura srednjeveških utrdb. Pohodniške poti, ki vodijo med ruševinami, nudijo edinstveno doživetje, saj obiskovalci lahko občutijo vzdušje preteklosti in se obenem prepustijo čudoviti naravi Kozjanskega hribovja. Obisk gradu je tudi priložnost za spoznavanje lokalne kulture in zgodovine, kar spodbuja razvoj kulturnega turizma v regiji. Lokalna skupnost si prizadeva ohraniti ta del dediščine, saj ruševine gradu predstavljajo dragocen spomin na nekdanjo moč in vpliv srednjeveških fevdalnih družin.
-Zaključek.Grad Žusem je več kot le ostanek srednjeveške utrdbe – je simbol zgodovinske moči, obrambnega umeščanja in kulturne dediščine Kozjanskega hribovja. Njegove ruševine nas opominjajo na čas, ko so bili gradovi ključni gradniki lokalne varnosti in stabilnosti. Danes grad pritegne obiskovalce z bogato zgodovino, arhitekturnimi ostanki in edinstvenim pogledom na preteklost, kar ga uvršča med pomembne točke za spoznavanje zgodovine regije.
-    </p>
+    <>
+      <hr></hr>
+      <p>
+        <strong>Pozor! Grad Žusem je aktivna ruševina, zato je gibanje v njegovi bližini močno odsvetovano in na lastno odgovornost!</strong>
+      </p>
+      <hr></hr>
+      <p>
+        Grad Žusem je ena izmed pomembnih srednjeveških utrdb na Kozjanskem, katere zgodovina sega v 12. stoletje. Nahaja se na nadmorski višini približno 509 metrov, kar mu je v preteklosti omogočalo odličen nadzor nad okoliško pokrajino in strateško pomembne poti. Danes so ohranjene predvsem ruševine, a že te ostanke je mogoče zlahka prepoznati kot sledi nekdaj mogočne utrdbe, ki je igrala ključno vlogo v obrambi območja. 
+      </p>
+      <br></br>
+      <p>
+        <strong>Zgodovinski razvoj gradu</strong>
+      </p>
+      <p>
+        Grad Žusem je bil zgrajen v času, ko so na meje Posotelja pritiskali Madžari. Krški škofje so skušali zaščititi svoje ozemlje in so za namene obrambe pred morebitnimi napadi v tem območju zgradili več gradov, tudi Žusem in Žamerk. V 12. stoletju, je grad služil kot vojaška utrdba, ki je nadzorovala pomembne prometne poti in lokalne krajevne centre. Zaradi svoje lege je imel grad strateški pomen, saj je s tem varoval celotno regijo in omogočal nadzor nad okoliškimi območji. Iz pisnih virov je razvidno, da je grad v 14. stoletju obsegal le stolpasto jedro, ki se mu je pred letom 1437 pridružilo tudi stanovanjsko poslopje. Viri omenjajo, da je imela grajska kapela križni obok iz klesanega kamna, kar da sklepati, da je bila gotska. Ob gradu sta stala konjski hlev in pristava, leta 1624 tudi opekarna; pod gradom je bil ribnik, ki se omenja že 1496. 5. maja 1635 so grad oplenili uporni kmetje, leta 1695 pa je pogorel. Glažutarski podjetnik Leopold Fieglmüller ga je iz davčnih razlogov leta 1871 razkril in pet let pozneje deloma porušil.
+      </p>
+      <br></br>
+      <p>
+        <strong>Arhitekturne značilnosti in ruševine</strong>
+      </p>
+      <p>
+        Danes je grad Žusem razvalina, ki priča o značilnostih srednjeveške gradnje. Ostanki obzidij, stolpov in drugih gradbenih elementov nudijo vpogled v obrambno arhitekturo tistega časa. Grad je bil sprva zgrajen z namenom zaščite, kar se kaže v močnih zidovih in strateško postavljenih stolpih, ki so omogočali dober pregled nad okolico. Kljub temu, da sta čas in narava vzela naza večino prvotne zgradbe, so ostanki še danes viden del lokalne kulturne dediščine in služijo kot opomnik na bogato preteklost.
+      </p>
+      <p>
+        Grad Žusem je več kot le ostanek srednjeveške utrdbe – je simbol zgodovinske moči, obrambnega umeščanja in kulturne dediščine Kozjanskega hribovja. Njegove ruševine nas opominjajo na čas, ko so bili gradovi ključni gradniki lokalne varnosti in stabilnosti. Danes grad pritegne obiskovalce z bogato zgodovino, arhitekturnimi ostanki in edinstvenim pogledom na preteklost, kar ga uvršča med pomembne točke za spoznavanje zgodovine regije.
+      </p>
+      <br></br>
+      <p>
+        Vpetost gradu in graščakov v življenja vsakdanjih ljudi se izkazuje skozi mnogo zgodb in legend, ki so se pripovedovala iz roda v rod. V 90ih. jih je zbral in uredil Daniel Artiček. Izdal jih je v knjigi <a className="hover:cursor-pointer hover:text-secondary" href="https://books.google.si/books/about/Legende_grofije_%C5%BEusemske.html?id=nwHaAAAAMAAJ&redir_esc=y" target="_blank" rel="noopener" title="Informacije o knjižni izdaji na spletni strani Google books">Legende grofije Žusemske</a>. Odstirajo nam delček naše krajevne zgodovine, ki niti ni tako silno oddaljena. V legendah so pretežno opisani dogodki iz dela in življenja navadnega človeka, tlačana, bajtarja, kmeta, nekaj pa tudi o grajski gospodi z gradu Žusem. Pogosto srečujemo pripovedi o vinu in vinogradništvu, ki so za te kraje še posebej značilni.
+      </p>
+      <div>
+        <Image
+        src="/images/novice/grad1.jpg"
+        alt="Slika gradu"
+        width={400}
+        height={400}
+        className="m-auto"/>
+      </div>    
+
+    </>
   )
 };
 

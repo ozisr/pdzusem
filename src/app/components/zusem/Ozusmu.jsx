@@ -48,7 +48,7 @@ const Ozusmu = () => {
         <button 
           onClick={() => setActiveSection('industrija')}
           className="text-left px-4 py-2 rounded transition-colors bg-primary text-white hover:bg-gray-100 hover:text-primary dark:hover:bg-gray-700 dark:hover:text-gray-100">
-          Industrija, kmetijstvo in mobilnost
+          Industrija in kmetijstvo
         </button>
         <button 
           onClick={() => setActiveSection('narava')}
