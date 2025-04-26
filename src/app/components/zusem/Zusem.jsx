@@ -2,6 +2,7 @@ import React from 'react';
 import Ikona from '../Ikona';
 import Ozusmu from './Ozusmu';
 import Zgodovina from './Zgodovina';
+import Image from 'next/image';
 
 const Zusem = () => {
   return (
@@ -20,6 +21,15 @@ const Zusem = () => {
               <p className="text-textColor dark:text-darkOnSurface">
               Žusem je 669 metrov visok hrib s pestro zgodovino in velikim potencialom za prihodnost. Predstavlja severni rob Kozjanskega, njegovo ime pa izvira iz priimka prvega lastnika gradu, žusemskega viteza in krškega ministeriala Poppa de Suzzenheima. Pogled z Žusma proti jugu nam razkriva ločnico med dvema svetovoma: predalpskim in subpanonskim. Na zahodu in jugu se dvigajo hribovja, sestavljena pretežno iz dolomita in apnenca, z najvišjimi vrhovi med 500 in 800 metri (Kunšperška gora, Orlica, Vetrnik, Oslica, Rudnica, Bohor), ki spadajo k vzodno Posavskem hribovju, to pa sodi v predalpski svet. Na južnem pobočju Žusma se razprostira naselje Dobrina, na zahodnem pa Hrastje.
               </p>
+              <figure>
+                <Image
+                src="/images/vsebina/zusem.jpg"
+                alt="Žusem kot ga vidimo iz hriba Sv. Helena"
+                width={400}
+                height={400}
+                className="m-auto"/>
+                <figcaption className="caption">Slika: Žusem</figcaption>
+              </figure>
               <p className="text-textColor dark:text-darkOnSurface">
               V zadnjih letih se turistične in druge aktivnosti na Žusmu in v njegovi okolici zelo razvijajo. Izpostaviti velja zlasti pohodništvo in jadralno padalstvo. Bližina Slivniškega jezera prinaša tudi individualni izletniški turizem, kar dobro vpliva na razvoj okoliških turističnih kmetij. Potencial ima tudi razvoj zdraviliškega turizma pri Grajskem vrelcu v Dobrini.
               </p>

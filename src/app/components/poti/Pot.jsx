@@ -60,14 +60,33 @@ const Pot = ({ pot }) => {
         </div>
         <div>
           <Image 
-          src={pot.imgUrl} 
+          src={pot.imgKarta} 
           alt={pot.naslov} 
-          width={200} 
-          height={150} 
+          width={250} 
+          height={200} 
+          className="mr-2"
+          />
+          <Image 
+          src={pot.imgElevation} 
+          alt={pot.naslov} 
+          width={250} 
+          height={200} 
           className="mr-2"
           />
         </div>
       </div>
+      <div className="flex flex-row">
+        <Image 
+        src="/images/icons/o_zusmu.svg" 
+        alt="O poti" 
+        width={32} 
+        height={32} 
+        className="ikone-poti"
+        />
+        <span className="pt-1">O poti: </span>
+      </div>
+        <p className="text-textColor dark:text-darkOnSurface">{pot.oPoti}</p>
+
       <div className="flex flex-row">
         <Image 
         src="/images/icons/opis_poti.svg" 

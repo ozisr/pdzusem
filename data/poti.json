@@ -7,11 +7,14 @@
     "dolzinaPoti": "3,7 km",
     "casHoje": "100 minut",
     "zahtevnostPoti": "Lahka pot",
+    "oPoti": "",
     "opisPoti": "Pohod pričnemo pri Turistični kmetiji Žurej-Ječovo. Po lepi javorski dolini, kjer se je po ljudskem izročilu sadil prvi krompir v Sloveniji, prečkamo reko Voglajno, ter zavijemo levo v gozd. Markirana pot nas vodi mimo NAPAJALNIKA . Nadaljujemo po urejenem gozdu, kjer lahko z nekaj sreče naberemo veliko vrst gob. Prispemo do prvega težjega vzpona: »Kurčev hrib«.  Ta del poti je še posebej čudovit spomladi, v času Tradicionalnega pohoda. Sledi spust, pot pa nas pripelje do »Grofovega štanta«, kjer se lahko priključimo Strmi, zelo zahtevni poti, ali pa nadaljujemo desno po cesti mimo kmetije Užmah. Tam se nam odpre čudovit razgled na dolino pod nami, pogled pa seže tudi do Kamniško-savinjskih alp, Pohorja, Boča, Donačke. Naprej se odpravimo po kolovozu do majhne stare kozjanske hišice, kjer zavijemo levo na makadamsko cesto. Po desetih minutah makadama zavijemo levo v hrib in skozi manjši kostanjev gozd pridemo do znamenitih »Ravnih njiv«. Včasih je tu stala kmetija Lipovšek, ki pa so jo Nemci med vojno požgali. Ostali so še temelji in majnši kozolec, kjer se lahko odpočijemo. Nemškemu agresorju se je uprla tudi mogočna lipa, ki še danes stoji. Nadaljujemo po ravnem terenu, levo mimo Velikega Špička (669m) (ter prostora, kjer je že med vojno stal prvi stolp – podatek je treba še preveriti v naslednjih dneh – po ljudskih izročilih, pa naj bi tu stala tudi prva lovska preža na slovenskem, v lasti Žusemskih grofov). Sledimo markacijam in po 10 minutah hoje, pridemo do Stolpa ljubezni.",
-    "imgUrl": "/images/panoramska_pot.JPG",
-    "imgUrl2": "/images/panoramska/panoramska2.jpg",
-    "imgUrl3": "/images/panoramska/panoramska3.jpg",
-    "imgUrl4": "/images/panoramska/panoramska4.jpg"
+    "imgUrl": "/images/panoramska/panoramska1.jpeg",
+    "imgUrl2": "/images/panoramska/panoramska2.jpeg",
+    "imgUrl3": "/images/panoramska/panoramska3.jpeg",
+    "imgUrl4": "/images/panoramska/panoramska4.jpeg",
+    "imgKarta": "/images/strma/strma_karta.jpg",
+    "imgElevation": "/images/strma/strma_elevation.jpg"
   },
   {
     "id": 2,
@@ -21,11 +24,14 @@
     "dolzinaPoti": "2,2 km",
     "casHoje": "45 minut",
     "zahtevnostPoti": "Lahka pot",
-    "opisPoti": "Pot se prične pri Turistični kmetiji Ječovo, od koder nas vodi mimo Završkove domačije proti Vošam po vinsko turistični cesti (VTC), kjer se v nadaljevanju pot prične rahlo vzpenjati. Ko prispemo na vrh klanca do Kladnikove domačije, sledimo markacijam in pot nadaljujemo naprej skozi gozd. Ko se nam pogled odpre, pred nami zagledamo hrib Sv. Helene, katerega glavna značilnost so številni vinogradi in zidanice (gorce) na južne pobočju, na vrhu pa je cerkev Sv. Helene. Pot nadaljujejemo še naprej po VTC in uživamo v panorami na številne vinograde in zidanice v bližini. Na vrhu grebena se nam pogled odpre na vaško središče Javorja in hribe v bližnji in daljni okolici. Pot nas vodi naprej po grebenu mimo številnih zinanic do najvišje točke hriba Sv. Helene. To je tudi prireditveni prostor, kjer vsako leto na Martinovo nedeljo poteka prireditev z naslovom: »Po Sv. Heleni Martin na star način«. Na ta dan poteka tudi Martinov pohod po tej poti.",
-    "imgUrl": "/images/martinova_pot.jpg",
-    "imgUrl2": "/images/martinova_pot.jpg",
-    "imgUrl3": "/images/martinova_pot.jpg",
-    "imgUrl4": "/images/martinova_pot.jpg"
+    "oPoti": "Martinova pot je nastala v sodelovanju z Vinogradniškim društvom Sv. Helena, za potrebe vsakoletne prireditve Martin na star način. V interesu gibanja in varovanja okolja se vsako leto vzpodbuja da se obiskovalci prireditve dogodka udeležujejo peš. V ta namen je sta se društvi združili v skupnem cilju, da se uredi pohodna pot iz parkirišča do vrha hriba Sv. Helena.",
+    "opisPoti": "Izhodišče je pri turistični kmetiji Žurej. Avto pustimo na parkirišču in se odpravimo po cesti mimo avtobusne postaje v smeri proti Dobrini. Po 50m pri planinskem smerokazu zavijemo iz glavne cesto na stransko in nadaljujemo po asfaltirani poti. Po kakih 100 metrih se cesta začne strmo vzpenjati in nas pripelje do kmetije. Nadaljujemo mimo naprej v gozd, na koncu katerega je križišče. Držimo se desno in zagrizemo v strmo pobočje. Na desno se nam začne odpirati pogled proti Bohorju, pred nami pa se nam prikažejo prve zidanice. Malo pred vrhom pridemo do novega križišča kjer pa se držimo levo in nadaljujemo strmo v hrib. Po nekaj deset metrih pridemo na vrh grebena. Odpre se nam razgled še na drugo stran proti Pohorju, Boču in Donački gori. Lepo vidimo sosednji hrib, Babno Goro. Cesta se rahlo spusti in nato zopet rahlo vzpne, Gremo mimo nekaj kmetij in zidanic, na levi občudujemo Žusem, pri naslednjem odcepu se držimo desno in po nekaj 100 metrih pridemo do spomenika OF, kjer se pot tudi zaključi. Od tu imamo razgled na Col z Slivnico in Kalobje. Tukaj je ena izmed klopc krožne poti PD Gorica pri Slivnici “S klopce na klopco”. Pot torej lahko nadaljujemo v smeri Pesek ali v smeri Bukovja. Nekaj metrov nižje je mogočna cerkev Sv. Helene z dvema mogočnima lipami pred vhodom. ",
+    "imgUrl": "/images/martinova/martinova1.jpg",
+    "imgUrl2": "/images/martinova/martinova2.jpg",
+    "imgUrl3": "/images/martinova/martinova3.jpg",
+    "imgUrl4": "/images/martinova/martinova4.jpg",
+    "imgKarta": "/images/martinova/martinova_karta.jpg",
+    "imgElevation": "/images/martinova/martinova_elevation.jpg"
   },
   {
     "id": 3,
@@ -35,11 +41,14 @@
     "dolzinaPoti": "1,6 km",
     "casHoje": "40 minut",
     "zahtevnostPoti": "Zelo zahtevna pot",
-    "opisPoti": "Začetek strme poti je v predelu, ki se imenuje Grofov štant. Do tega predala lahko pridemo po panoramski poti, za kar potrebujemo 30 minut zmerne hoje. Strma pot je opremljena z jeklenicami, klini in številnimi stopnicami. Pot prečka številne skale, ki z svojo veličino poti dodajo prav poseben čar.",
-    "imgUrl": "/images/strma_pot.jpg",
+    "oPoti": "Strma pot je druga pot, ki jo je uredilo planinsko društvo žusem, in tudi najbolj kontroverzna. Ob odprtju je v kraje pod žusmom prinašala zanimivo traso, ki je vključevala tudi kline, lojtre in jeklenico. Danes teh odsekov zaradi širjenja kamnoloma ni več, kljub vsemu pa ostaja ta pot med najbolj priljubljenimi potmi na žusem. Zanimiva je predvsem med rekreativci zaradi lahkega dostopa do izhodišča in hitrega vzpona tako po višinskih metrih kot po času. Ko so po tej poti potekala tekmovanja v gorskem teku, je rekord znašal nekje 23min. Povprečen pohodnik pa jo prehodi v dobri uri. Kljub temu da delov z jeklenicami in klini ni več, pot še vedno predstavlja najbolj strm vzpon na Žusem.",
+    "opisPoti": "Izhodišče je pri turistični kmetiji Žurej, kjer je prav tako izhodišče za Panoramsko pot in Martinovo pot. Avto pustimo na parkirišču, in se odpravimo na pot preko travnika proti gozdu. Ko prečkamo potok, sledimo markacijam in zavijemo levo po kolovozu. Pot nas peleje mimo presihajočega ribnika skozi mešani listnati gozd. Rahlo se vzpnemo po kolovozu do višje ležečega platoja kjer v desnem loku pridemo pod Grešinski hrib. Tukaj se pot razcepi na dva dela. Naravnost lahko gremo po lažji poti, rahlo na okrog, levo pa se podamo čez zloglasni greben imenovan Kurčev hrib. Ime ta greben ni dobil samo zaradi svoje strmine ampak tudi zaradi falične oblike na eni izmed tukajšnjih bukev, ki pa je žal zaradi velike obrabe že odpadla. Obe poti se zopet združita malo pod vrhom, kjer nas čaka klopca za počitek. Nadaljujemo rahlo navzdol in desno v macesnov gozd, ter se nato še enkrat hitro vzpnemo in zopet spustimo, tokrat v levo, kjer pridemo do roba čudovitega zelenega loga, ki ga lahko občudujemo na levi strani. Pot se nadaljuje po grebenu zopet rahlo navzgor. Za tem zavijemo iz grebena desno po pobočju skozi čudovit mlad bukov gozd, se zopet rahlo vzpnemo in po prečenju še enega pogozdenega pobočja pridemo do makadamske ceste. Na levi je parkirišče, ljudsko imenovano Grofov štant, ki tudi predstavlja eno izmed izhodišč tako za Strmo pot, kot tudi pot proti Žusemskemu gradu ali naprej na Gamsovo pot. Strma pot pa nadaljuje preko makadamske ceste in po nekaj deset metrih pride do asfaltirane ceste, kjer se je odcepila stara Panoramska pot. Strma pot nadaljuje pot preko ceste in se tukaj začne strmo vzpenjati. Kaj kmalu nas pričaka klopca za počitek, po nekaj ovinkih pa se pot spet malo uravna na platoju, nato pa se spet postavi strmo pokonci, kjer so v pomoč potrebne tudi stopnice. V nekaj metrih se močno dvignemo. Od tu dalje gre do vrha samo še strmo navzgor. Prečkamo staro gozdno cesto in kmalu zopet srečamo novo klopco za počitek. Prišli smo prav do roba kamnoloma za to previdno! V tem delu je zaradi širjenja kamnoloma speljana nova pot, ki zavije desno, in ne levo nazaj proti kamnolomu. Po nekaj ovinkih in višinskih metrih se pot znova združi s staro potjo, ki pa višje ubere popolnoma drugo pot in se cik-cak, enakomerno po prečkanju še ene stare gozdne ceste, vzpne povsem do vrha in Stolpa ljubezni.",
+    "imgUrl": "/images/strma/strma1.jpg",
     "imgUrl2": "/images/strma/strma2.jpg",
-    "imgUrl3": "/images/strma/strma3.jpg",
-    "imgUrl4": "/images/strma/strma4.jpg"
+    "imgUrl3": "/images/strma/strma3.jpeg",
+    "imgUrl4": "/images/strma/strma4.jpg",
+    "imgKarta": "/images/strma/strma_karta.jpg",
+    "imgElevation": "/images/strma/strma_elevation.jpg"
   },
   {
     "id": 4,
@@ -49,11 +58,14 @@
     "dolzinaPoti": "2,2 km",
     "casHoje": "60 minut",
     "zahtevnostPoti": "Lahka pot",
+    "oPoti": "",
     "opisPoti": "Pot se prične v Loki pri Žusmu, pri Loškem vodnjaku, od koder nas vodi po asfaltni cesti do domačije Ratajc, kjer  se podamo v gozd. Po lepi gozdni poti nadaljujemo pot prblibižno dvajset minut, nakar pridemo do domačije Užmah. Od tod je zelo lep razgled na Loko. Tu si lahko ogledamo tudi ribnik. Nadaljujemo po makadamski cesti in pridemo da izvira pitne vode, kjer se lahko odžejamo. Pot nadaljujemo po makadamu do Žusemskega gradu. Od tu gremo levo navzgor po asfaltni cesti približno deset minut, nato pa zavijemo desno v gozd. Sledimo markacijam, ki nas usmerjajo mimo skalovja proti vrhu Žusma.",
-    "imgUrl": "/images/kostanjeva_pot.JPG",
+    "imgUrl": "/images/kriznikova/kriznikova3.jpg",
     "imgUrl2": "/uploads/poti/1742044365352-kriznikova3.JPG",
     "imgUrl3": "/images/kriznikova/kriznikova3.jpg",
-    "imgUrl4": "/images/kriznikova/kriznikova1.jpg"
+    "imgUrl4": "/images/kriznikova/kriznikova1.jpg",
+    "imgKarta": "/images/strma/strma_karta.jpg",
+    "imgElevation": "/images/strma/strma_elevation.jpg"
   },
   {
     "id": 5,
@@ -63,11 +75,14 @@
     "dolzinaPoti": "2,2 km",
     "casHoje": "60 minut",
     "zahtevnostPoti": "Zahtevna pot",
+    "oPoti": "",
     "opisPoti": "Pot je del Kozjanske obhodnice; t. j. poti, ki pelje po obronkih Kozjanskega. Začetek poti je v kraju Žamerk. Pri znameniti pečini z »oknom« se usmerimo proti Žusmu, sledimo markacijam in prečkamo cesto Loka - Dobrina ter nadaljujemo pot po stranski cesti mimo domačij (imena domačij!!) in kapelice z zvonikom. Na prvem odcepu zavijemo levo ter zagrizemo v strm hrib skozi gozdiček do domačije (ime domačije!!). Tu zavijemo levo in po kolovozu nadaljujemo dvesto metrov, nato pa zopet zavijemo desno v gozd. Pot se strmo vzpenja proti vrhu Mali Špiček. Pri padalskem vzletišču zavijemo levo in nadaljujemo po asfaltirani cesti mimo dveh cerkva in planinskega doma. V sledečem križišču zavijemo desno, nato pa levo mimo lovskega doma nadaljujemo pot po makadamu. Čez približno petsto metrov zavijemo levo v gozd, sledimo markacijam. Po desetih minutah dosežemo vrh.",
     "imgUrl": "/images/grajska_pot.jpg",
     "imgUrl2": "/images/grajska/grajska2.jpg",
     "imgUrl3": "/images/grajska/grajska1.jpg",
-    "imgUrl4": "/images/grajska_pot.jpg"
+    "imgUrl4": "/images/grajska_pot.jpg",
+    "imgKarta": "/images/strma/strma_karta.jpg",
+    "imgElevation": "/images/strma/strma_elevation.jpg"
   },
   {
     "id": 6,
@@ -77,10 +92,13 @@
     "dolzinaPoti": "2,2 km",
     "casHoje": "30 minut",
     "zahtevnostPoti": "Zahtevna pot",
-    "opisPoti": "Pot poteka od gradu in se razdeli na dva dela: na lahko in zahtevno pot. Proti vrhu, velik del poti poteka prav ob robu kamnoloma, kjer vam zastane dih in se počutite kot gams.",
-    "imgUrl": "/images/strma/strma1.jpg",
-    "imgUrl2": "/images/strma/strma1.jpg",
-    "imgUrl3": "/images/strma/strma1.jpg",
-    "imgUrl4": "/images/strma/strma1.jpg"
+    "oPoti": "Uničenje plezalnega dela strme poti zaradi širjenja kamnoloma, je imela tudi pozitivne posledice. Planinsko društvo Žusem je namreč v želji po ponovni vzpostavitvi plezalnega odseka, našlo čudovito traso, ki na relativno kratki razdalji nudi veliko primerov visokogorskega plezanja. Na nekaj sto metrih se tako vzpenjamo čez police, žleb, prečno preko stene, in pridemo v stik z klini, jeklenico in jekleno lestvijo. Tako je ta pot nadvse primerna za pohodnike, ki si želijo v visokogorje pa ne vejo kaj lahko tam pričakujejo, prav tako pa kot vadbeni poligon za otroke in mladostnike, ki se lahko pod budnim očesom izkušenejših odraslih ali inšturktorjev spoznavajo s prvinami visokogorskega plezanja. Kdor ne želi ali ne zmore preko plezalnega dela poti, lahko le-tega obide po nezahtevni lahki poti in se nad plezalnim delom pridruži nazaj k poti proti vrhu Žusma.",
+    "opisPoti": "Izhodišče je parkirišče pod gradom Žusem. Iz leve strani se po cesti pridruži navezovalna pot ki vodi do Grajske in Križnikove poti, z desne pa se po cesti mimo kamnoloma pridruži navezovalna pot iz Grofovega štanta, ki prav tako lahko služi kot izhodišče za več poti na Žusem. Iz parkirišča zavijemo na glavno cesto, ki pelje proti vrhu Žusma in kakih 100m hodimo po cesti. Pri planinskem kažipotu zavijemo desno navzgor po makadamski cesti, ki se uporablja za potrebe kamnoloma. Čez 30m se pot razcepi. Če se želimo izogniti plezalnemu delu tukaj zavijemo ostro levo in na markirano gozdno stezo, ki nas vodi po manj strmem terenu. Plezalni del pa se poda v skale, ki se vzpenjajo pred nami. Nadaljujemo naravnost proti steni kamor se vzpnemo po stopničasti poti. Pridemo do prve jeklenice, ki nas ob steni usmeri na desno in nam pomaga premagati še strmejši stopničasti del poti. Na vrhu tega odseka je manjši plato kjer se začne plezalni del. Takoj se začnemo vzpenjati po jekleni lestvi, kjer pridemo čez skalnati del v dveh delih, nato pa nas še malo vodi jeklenica do vrha balvana. Še nekaj korakov višje in smo že na polici pod previsno steno. Ob jeklenici prečkamo do konca police, ki vodi do dna žleba. Pogled navzgor nam pokaže pot, ki nas čaka. Najprej po lestvi nekje do polovice žleba, potem pa levo prečno čez steno in po klinih ven iz skalnatega dela. Jeklenica nas nato še nekaj časa spremlja po strmem delu poti, da imamo ob morebitnem blatu in listju bol trden korak. Pred robom kamnoloma zavijemo levo in po nekaj korakih se nam iz leve priključi pot po manj zahtevnem terenu. Nadaljujemo pot ob robu kamnoloma, prečkamo dve poti za potrebe kamnoloma in v dobrih 5 minutah pridemo pod Stolp ljubezni.",
+    "imgUrl": "/images/gamsova/gamsova1.jpg",
+    "imgUrl2": "/images/gamsova/gamsova2.jpg",
+    "imgUrl3": "/images/gamsova/gamsova3.jpg",
+    "imgUrl4": "/images/gamsova/gamsova4.jpg",
+    "imgKarta": "/images/gamsova/gams_strma_karta.jpg",
+    "imgElevation": "/images/gamsova/gams_strma_elevation.jpg"
   }
 ]

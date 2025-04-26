@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Megaliti = () => {
   return (
@@ -22,6 +23,28 @@ const Megaliti = () => {
       <br></br>
         Obisk megalitov na Žusmu je tako priložnost za doživljanje narave, raziskovanje starodavnih struktur in iskanje notranjega ravnovesja skozi darove, ki jih ponujajo ti skrivnostni kamni.
       </p>
+      <div className="figures">
+        <figure>
+          <Image
+          src="/images/vsebina/knjiga.jpg"
+          alt="Knjiga Nove zgodbe Žusma avtorice Andreje Križan Lipnik"
+          width={300}
+          height={400}
+          className="m-auto h-[400px] object-contain"
+          />
+          <figcaption className="caption">Slika: Knjiga Nove zgodbe Žusma</figcaption>
+        </figure>
+        <figure>
+          <Image
+          src="/images/vsebina/kacenosec.png"
+          alt="Keplerjeva slika supernove na Kačenosčevi nogi"
+          width={300}
+          height={400}
+          className="m-auto h-[400px] object-contain"
+          />
+          <figcaption className="caption">Slika: Ozvezdje kačenosca</figcaption>
+        </figure>
+      </div>
     </>
   )
 };

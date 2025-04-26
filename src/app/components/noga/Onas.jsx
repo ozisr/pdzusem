@@ -12,11 +12,12 @@ const Onas= () => {
        Javorje 32a, 3263 Gorica
         </li>
         <li>
-       Email:  info@pd-zusem.si
+       Email:  <a href="mailto:info@pd-zusem.si">info@pd-zusem.si</a>
         </li>
         <li>
-       Telefon: 041 725 044 (Martin Ozis)
+       Telefon: <a href="tel:+38641276603">041 276 603</a>
         </li>
+        <li>(Jan Pustivšek, predsednik)</li>
        </ul>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Simbolika = () => {
   return (
@@ -16,6 +17,15 @@ const Simbolika = () => {
       <p>
       <strong>- Predstavlja romantično oazo:</strong> Poleg arhitekturne dovršenosti stolp nosi tudi čustveni naboj – na vrhu je nameščen zvon želja, kjer pari zazvonijo v upanju na srečno skupno prihodnost, s čimer Stolp ljubezni postane priljubljeno mesto za romantične trenutke.
       </p>
+      <figure>
+          <Image
+          src="/images/vsebina/zvon.JPG"
+          alt="Bližnja fotografija zvona na stolpu s hribovjem v ozadju"
+          width={300}
+          height={300}
+          className="m-auto"/>
+          <figcaption className="caption">Slika: Zvon želja </figcaption>
+      </figure>
     </>
   )
 };

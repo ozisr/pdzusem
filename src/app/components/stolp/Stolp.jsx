@@ -19,14 +19,17 @@ const Stolp= () => {
           <article className="article">
             <div>
               <div className="lg:float-right lg:w-1/3 lg:ml-2">
-                <Image
-                  src={stolp}
-                  alt="Stolp Ljubezni"
-                  className="rounded-lg shadow-lg"
-                  width={400}
-                  height={300}
-                  priority
-                />
+                <figure>
+                  <Image
+                    src={stolp}
+                    alt="Stolp Ljubezni"
+                    className="rounded-lg shadow-lg"
+                    width={400}
+                    height={300}
+                    priority
+                  />
+                  <figcaption className="caption">Slika: Pogled na stolp iz južne strani</figcaption>
+                </figure>
               </div>
                 <h2 className="head-subtitle">Nekaj o Stolpu Ljubezni</h2>
                 <h3 className="head-description dark:text-white">Stolp ljubezni na Žusmu – razgled, tradicija in simbol ljubezni</h3>

@@ -124,6 +124,21 @@
     @apply flex items-center mb-2 mr-2;
   }
 
+  .caption {
+    @apply text-center font-light text-opacity-90;
+  }
+
+  .link {
+    @apply hover:cursor-pointer hover:text-secondary;
+  }
+
+  .figures {
+    display: flex;
+    gap: 1rem; 
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+
   .custom-gallery {
     width: 100%;
     height: auto;
