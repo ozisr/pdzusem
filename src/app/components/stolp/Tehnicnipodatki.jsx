@@ -4,10 +4,10 @@ import Image from 'next/image';
 const Tehnicnipodatki = () => {
   return (
     <>
-      <h3>
+      <h3 className="text-textColor dark:text-darkOnSurface">
         Pri zasnovi in gradnji Stolpa ljubezni so strokovnjaki in obrtniki poskrbeli za visoko kakovost ter trajnost gradnje. Uradni tehnični podatki stolpa so sledeči:
       </h3>
-      <ul className="mt-3">
+      <ul className="mt-3 text-textColor dark:text-darkOnSurface">
         <li className="mt-2">
           <strong>Višina stolpa:</strong> 25,90 m
         </li>

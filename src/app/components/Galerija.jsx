@@ -40,6 +40,8 @@ const Galerija = () => {
               lazyLoad={true}
               additionalClass="custom-gallery"
             />
+            <br></br>
+            <h3>V kolikor želite, da vaše slike uporabimo na naših informacijskih kanalih, nam jih pošljite na naš <a href="mailto:info@pd-zusem.si" className="link">email</a>.</h3>
           </figure>
         </div>
       </div>

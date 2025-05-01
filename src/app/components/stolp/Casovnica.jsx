@@ -3,10 +3,10 @@ import React from 'react';
 const Casovnica = () => {
   return (
     <>
-      <h3>
+      <h3 className="text-textColor dark:text-darkOnSurface">
         Gradbeni proces Stolpa ljubezni je potekal v več jasno opredeljenih fazah, ki so bile ključne za uresničitev tega ambicioznega projekta. Izpostavimo lahko naslednje mejnike:
       </h3>
-      <ul className="mt-3">
+      <ul className="mt-3 text-textColor dark:text-darkOnSurface">
         <li className="mt-2">
           <strong>27. maja 2014:</strong> Izdano gradbeno dovoljenje, kar odpira vrata realizaciji projekta.
         </li>

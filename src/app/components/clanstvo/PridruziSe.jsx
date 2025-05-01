@@ -22,14 +22,10 @@ const PridruziSe = () => {
         <li><strong>Osebno</strong> v društveni pisarni PD Žusem v času uradnih ur.</li>
         <li>
           <strong>Preko spleta</strong> na strani
-          <a href="https://clanarina.pzs.si" className="text-blue-500 hover:underline"> clanarina.pzs.si</a>, kjer
+          <a href="https://clanarina.pzs.si" className="link" target="_blank" rel="noopener" title="Spletna stran Planinske zveze Slovenije, kjer se lahko poravna naročnino za tekoče leto"> clanarina.pzs.si</a>, kjer
           izberete PD Žusem in članarino poravnate s kreditno kartico. Člansko znamkico ali izkaznico prejmete po pošti.
         </li>
         <li><strong>Na sedežu Planinske zveze Slovenije</strong> v času uradnih ur.</li>
-        <li>
-          <strong>Na bencinskih servisih Petrol</strong> v poletni sezoni (potrebna je naknadna aktivacija na
-          <a href="https://clanarina.pzs.si" className="text-blue-500 hover:underline"> clanarina.pzs.si</a>).
-        </li>
       </ul>
       <h2 className="head-description dark:text-white">Višina in vrsta članarin za leto 2025</h2>
       <p className="mb-4 text-textColor dark:text-darkOnSurface">

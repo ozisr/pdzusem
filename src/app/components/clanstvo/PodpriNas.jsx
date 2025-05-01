@@ -22,7 +22,7 @@ const PodpriNas = () => {
         aktivnosti PD Žusem. To lahko storite na več načinov:
       </p>
       <ul className="list-disc list-inside mt-2">
-        <li>Prek spletne strani eDavki (davčna številka PD Žusem: XXXXXXXX)</li>
+        <li>Prek spletne strani eDavki (davčna številka PD Žusem: 34119612)</li>
         <li>Pisno ali ustno na zapisnik pri pristojnem davčnem organu</li>
         <li>Z izpolnitvijo predizpolnjenega obrazca in pošiljanjem na davčni urad</li>
       </ul>
@@ -38,7 +38,7 @@ const PodpriNas = () => {
         kot so urejanje planinskih poti, dejavnosti mladih itd.
       </p>
       <p className="mt-2 font-semibold">Podatki za nakazilo:</p>
-      <p className="mt-2">TRR: SI56 0231 2001 1917 914 (NLB d.d.)</p>
+      <p className="mt-2">TRR: SI56 1967 0500 9898 643 (DBS d.d.)</p>
       <p className="mt-2">Namen: Donacija PD Žusem</p>
     </section>
 

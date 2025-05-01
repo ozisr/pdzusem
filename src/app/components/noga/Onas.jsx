@@ -12,6 +12,12 @@ const Onas= () => {
        Javorje 32a, 3263 Gorica
         </li>
         <li>
+       Matična št.: 2255251000
+        </li>
+        <li>
+       Davčna št.: 34119612
+        </li>
+        <li>
        Email:  <a href="mailto:info@pd-zusem.si">info@pd-zusem.si</a>
         </li>
         <li>
